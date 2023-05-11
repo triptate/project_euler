@@ -1,4 +1,4 @@
-## (Project Euler)[https://projecteuler.net/].
+## [Project Euler](https://projecteuler.net/).
 
 These are solutions to the problems in the Project Euler database.
 These are complete solutions. They are intended to show my work,
