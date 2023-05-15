@@ -13,4 +13,4 @@ while (next_fibonacci_number(fibonacci_sequence) < max)
   fibonacci_sequence << next_fibonacci_number(fibonacci_sequence)
 end
 
-puts(fibonacci_sequence.map { |n| n if n % 2 == 0 }.compact.sum)
+puts(fibonacci_sequence.select { |n| n % 2 == 0 }.compact.sum)
